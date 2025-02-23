@@ -31,7 +31,7 @@ jobs:
       # Step 4: Build the static site content using Quartz
       - name: Build Static Site Content
         run: |
-          npx quartz build --serve
+          npx quartz build
 
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
